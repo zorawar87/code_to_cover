@@ -4,7 +4,7 @@ import os, sys
 args = sys.argv
 args.pop(0);
 
-Dir = "out/"
+Dir = "./out/"
 
 def prep(line, is_method):
   if is_method == True:
