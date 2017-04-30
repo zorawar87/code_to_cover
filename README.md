@@ -1,2 +1,2 @@
 # Code To Cover
-Parses Java source files to produce a latex-ed PDF cover page, designed in accordance with TrinColl's CPSC215
+Parse Java source files to produce a latex-ed PDF cover page, output and source dump. Built for CPSC215; can be used anywhere
