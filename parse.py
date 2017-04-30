@@ -13,7 +13,7 @@ output_file = raw_input("Do you want to append the program output? Filename, or 
 source_files = raw_input("Do you want to append the program sources? Space separated Filenames, or no: ")
 
 if (len(name)>1 and len(title)>1):
-    os.system(path+"/gen_source %s %s %s %s 12>/dev/null".format(name,title,date,cl_name))
+    os.system(path+"/gen_source.py %s %s %s %s 12>/dev/null".format(name,title,date,cl_name))
     #os.system(path+"/./gen_source.py {} {} {} {}".format(name,title,date,cl_name))
     print "Source Generated"
     os.system(path+"/./analyse.py 1 {} 2 {} 3 {}".format(cover_files, output_file, source_files))
