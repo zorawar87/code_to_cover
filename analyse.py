@@ -100,5 +100,7 @@ if __name__ == "__main__":
           args.pop(0)
     write_close(to)
   os.system("pdflatex -output-directory "+Dir+" "+ Dir+"main.tex")
+  os.system("rm source.tex")
+  
 
 
