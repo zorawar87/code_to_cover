@@ -1,4 +1,6 @@
-1.0
+v2.0
 ==================
- 1. place source.tex and parse.py in the current directory
- 2. USAGE: ./parse.py file_to_parse
+  1. Be in the directory with all the java files
+  2. USAGE: /--path--to--this--source/parse.py
+  3. The program asks for some details, fill them
+  4. Text @zorawar87 on fb messenger for bugs
